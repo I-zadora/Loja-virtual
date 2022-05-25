@@ -4,24 +4,27 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+
 body{ 
 width: 100vw;
 height: 100vh;
-background-color: rgb(249, 249, 248);
-   
-    
+background-color: rgb(249, 249, 248);   
 }
+/*estilização do header*/
 header{
 width: 100vw;
 height: 15vh;
 display: flex;
 justify-content: center;
 color:#3D5A23;
-border-top: solid 2px #3D5A23;
+margin-top: 15px;
+border-top: solid 1px #3D5A23;
 border-bottom: solid 1px #3D5A23;
 font-family: 'Poppins', sans-serif;
   
 }
+/*Estilização do logotipo*/
 #logo {
 
 width: 20vw;
@@ -31,7 +34,7 @@ letter-spacing: 2px;
 margin-top: 40px;
 
 
-}
+} /*Estilização da barra de navegação*/
 .menu{
 width: 30vw;
 display: flex;
@@ -42,11 +45,11 @@ letter-spacing: 2px;
 margin-top: 40px;
 
 }
-
 li{
 list-style-type: none;
 align-items: center;
 }
+
 #icons {
 width: 20vw;
 display: flex;
@@ -62,6 +65,8 @@ width: 2vw;
 display: flex;
 align-items: center;
 }
+
+
 main{
 display: flex;
 flex-direction: column;
